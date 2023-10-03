@@ -15,3 +15,26 @@ myButton.forEach(button => button.addEventListener("click", () => {
     myResult.textContent = checkResults();
 }))
 
+function computersOptions(){
+    const selections = Math.floor(Math.random() * 3) + 1;
+    switch(selections){
+        case 1:
+            computer = "ROCK";
+            break;
+
+            case 2:
+                computer = "PAPER";
+                break;
+
+                case 3:
+                    computer = "SCISSORS";
+                    break;
+
+                    default:
+                        break;
+
+    }
+};
+
+func
+
