@@ -1,18 +1,23 @@
+/* Game buttons */
 
-
-
-.myButton {
+.myButtons {
     line-height: 30px;
     width: 150px;
 }
+
+/* player */
 
 #myPlayer {
     color: blue;
 }
 
+/* computer */
+
 #myComputer {
     color: red;
 }
+
+/* Game Div */
 
 #gameDiv {
     border: 3px solid;
