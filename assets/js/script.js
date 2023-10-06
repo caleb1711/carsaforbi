@@ -2,10 +2,18 @@ const myPlayer = document.querySelector("#myPlayer");
 const myComputer = document.querySelector("#myComputer");
 const myResult = document.querySelector("#myResult");
 const myButton = document.querySelectorAll(".myButtons");
+const score1 = document.querySelector("#score1");
+const scoreNum = document.querySelector(".scoreNum");
+
+
 
 let player;
 let computer;
 let result;
+let score = 0;
+
+
+
 
 myButton.forEach(button => button.addEventListener("click", () => {
     player = button.textContent;
@@ -35,19 +43,46 @@ function computersOptions() {
 
     }
 };
+function keepScore(point) {
+    score += point;
+    scoreNum.innerHTML = score;
+}
+
 
 function checkResults() {
     if (computer == player) {
         return ("DRAW!");
     }
-    if (computer == "ROCK") {
-        return (player == "PAPER") ? "You Win!" : "You Loose!";
+    else if (computer == "ROCK" && player == "PAPER") {
+        keepScore(1);
+        return "You Win!";
+
     }
-    if (computer == "SCISSORS") {
-        return (player == "ROCK") ? "You Win" : "You Loose!";
+    else if (computer == "SCISSORS" && player == "PAPER") {
+        keepScore(-1);
+        return "You Loose!";
+
     }
-    if (computer == "PAPER") {
-        return (player == "SCISSORS") ? "You Win" : "You Loose!";
+    else if (computer == "PAPER" && player == "SCISSORS") {
+        keepScore(1);
+        return "You Win!";
     }
+    else if (computer == "ROCK" && player == "SCISSORS") {
+        keepScore(-1);
+        return "You Loose!";
+
+    }
+    else if (computer == "PAPER" && player == "ROCK") {
+        keepScore(-1);
+        return "You Loose!";
+
+    }
+    else if (computer == "SCISSORS" && player == "ROCK") {
+        keepScore(1);
+        return "You Win!";
+
+    }
+
+
 }
 

@@ -19,11 +19,24 @@
 
 /* Game Div */
 
+
 #gameDiv {
+
+
     border: 3px solid;
     border-radius: 26px;
-    padding: 10px;
+    padding: 60px;
     font-family: "Permanent Marker", cursive;
-    background-color: rgb(184, 182, 182);
+    background-color: rgb(183, 185, 188);
     text-align: center;
+
+}
+
+.score {
+    font-size: 20px;
+    color: green;
+}
+
+.scoreNum {
+    color: green;
 }
