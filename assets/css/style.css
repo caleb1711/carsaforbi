@@ -65,7 +65,7 @@
     border: 2px solid rgb(10, 9, 13);
 }
 
-@media (width <=600px) {
+@media (300px <=width <=600px) {
     #gameDiv {
         padding: 10px;
     }
