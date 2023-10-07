@@ -1,39 +1,36 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CARSAFORBI
+Sasscarf is a Rock paper scissors (also known by other orderings of the three items, with "rock" sometimes being called "stone," is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a fist with the index finger and middle finger extended, forming a V). The earliest form of "rock paper scissors"-style game originated in China and was subsequently imported into Japan, where it reached its modern standardized form, before being spread throughout the world in the early 20th century.
 
-Welcome,
+Users have the chance to play against the Computer, which picks random options between paper, rock and scissors.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## How To Play
+It has three possible outcomes: a draw, a win or a loss. A player who decides to play rock will beat the Computer, which has chosen scissors ("rock crushes scissors" or "breaks scissors" or sometimes "blunts scissors", but will lose to one who has played paper ("paper covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same shape, the game is tied and is usually replayed to break the tie.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
 
-## Codeanywhere Reminders
+### Testing
+I put this page to test on different browsers, Chrome, Safari, Firefox
+I confirmed that, this page is responsive, looks good and functions accurately on all screen sizes using the devtool device toolbar.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+#### Validating Testing
 
-`python3 -m http.server`
+###### HTML
+No errors were returned, when passing through the official W3C validator
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+###### CSS
+No errors were found, when passing through the (jigsaw) validator
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+###### JS
+No errors were found, when passing through the (Code Beautify) validator
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+###### Accessibility
+<img width="960" alt="carsaforbi" src="https://github.com/caleb1711/carsaforbi/assets/130179631/998b5acd-0019-442a-a2a0-b1d044697d1e">
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+#### Deployment
+In the GitHub repository, navigate to the Settings tab
+From the Source drop-down menu, select the Master Branch
+Once the Master Branch has been selected, the page provided the link to the completed website
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
