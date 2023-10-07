@@ -64,3 +64,9 @@
     border: solid rgb(8, 48, 81);
     border: 2px solid rgb(10, 9, 13);
 }
+
+@media (max-width: 600px) {
+    #gameDiv {
+        padding: 35px;
+    }
+}
