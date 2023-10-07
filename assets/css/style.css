@@ -33,10 +33,34 @@
 }
 
 .score {
-    font-size: 20px;
-    color: green;
+    font-size: 25px;
+    color: rgb(12, 19, 91);
 }
 
 .scoreNum {
-    color: green;
+    color: rgb(172, 16, 16);
+    font-size: 35px;
+}
+
+#rock {
+    background-color: rgb(14, 61, 100);
+    color: white;
+    border: solid rgb(110, 188, 251);
+    border: 2px solid rgb(10, 9, 13);
+
+}
+
+#paper {
+    background-color: rgb(14, 61, 100);
+    color: white;
+    border: solid rgb(110, 188, 251);
+    border: 2px solid rgb(10, 9, 13);
+
+}
+
+#scissors {
+    background-color: rgb(14, 61, 100);
+    color: white;
+    border: solid rgb(8, 48, 81);
+    border: 2px solid rgb(10, 9, 13);
 }
